@@ -1,0 +1,64 @@
+
+.navbar {
+    background-color: #2b9cc9;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+  }
+  
+   .navbar ul {
+    list-style: none;
+    display: flex;
+    
+  }
+  
+   .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: rgb(1, 1, 32);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  
+  .navbar ul li a:hover {
+    color: #fbfdfd;
+  }
+
+  .title{
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(7, 47, 75);
+    
+  }
+
+  .categories{
+    color: rgb(66, 19, 41);
+    margin-left: 50px;
+  }
+
+  .button{
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(160, 109, 34);
+  }
+
+  .header{
+    margin-left: 10px;
+    color: rgb(8, 8, 85);
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Adjust width as needed */
+    margin: 20px auto; /* Centers the form */
+    gap: 10px
+  }
+     
